@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Vo - Portfolio</title>
+    <link rel="icon" href="./images/favicon.ico">
+
+    <style>
+        header, main {
+            border: 4px solid;
+            padding: 8px;
+            margin: 8px;
+        }
+    </style>
+
+    <script>
+        <!--This is a placeholder.-->
+    </script>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./images/site_icon.png" alt="The website's icon depicting the letters 'A' and 'V' in white on a black background"></a>
+        <h1>Ashley Vo</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <noscript>JavaScript is required for this website to work.</noscript>
+
+        <h2>Projects</h2>
+        <project-card>
+            <article>
+                <h3>Let Me Cook</h3>
+                <p>GitHub link: <a href="https://github.com/cse110-sp25-group8/final-project">View project GitHub</a></p>
+
+                <label for="projects-letmecook-prog">Project Completion:</label>
+                <progress id="projects-letmecook-prog" value="100" max="100">100%</progress>
+                <button>More Details</button>
+
+                <dialog>
+                    <h4>Let Me Cook</h4>
+                    <ul>
+                        <li>Led a team of 11 in a quarter-long Software Engineering course project to build a recipe web app, integrating Agile practices and emphasizing user-focus in our app design.</li>
+                        <li>Coordinated meetings and communication while balancing technical responsibilities and team dynamics.</li>
+                    </ul>
+                </dialog>
+            </article>
+        </project-card>
+
+        <project-card>
+            <article>
+                <h3>Pokemon Cards Monte Carlo Analysis</h3>
+                <p>GitHub link: <a href="https://github.com/TeaFive/2025-McDonalds-Pokemon-Cards-Monte-Carlo">View project GitHub</a></p>
+
+                <label for="projects-pokemon-prog">Project Completion:</label>
+                <progress id="projects-pokemon-prog" value="100" max="100">100%</progress>
+                <button>More Details</button>
+
+                <dialog>
+                    <h4>Pokemon Cards Monte Carlo Analysis</h4>
+                    <ul>
+                        <li>Developed an R-based Monte Carlo simulation to model randomized distribution systems, analyzing expected outcomes, identifying bottlenecks, and visualizing distributions with ggplot2.</li>
+                    </ul>
+                </dialog>
+            </article>
+        </project-card>
+    </main>
+
+    <footer>
+        <p>This website was made with &#10084; by Ashley Vo.</p> 
+    </footer>
+</body>
+</html>
